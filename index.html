@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="h2">Create Account</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label>Username: </label>
+          <input type="text" placeholder="Enter user name" id="userName" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label>Email: </label>
+          <input type="email" placeholder="Enter user email" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label>password: </label>
+          <input
+            type="password"
+            placeholder="Enter user password"
+            id="password"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label>Repeat password: </label>
+          <input type="password" placeholder="repeat password" id="password2" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
