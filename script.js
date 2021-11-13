@@ -32,7 +32,7 @@ const storeFormData = () => {
 // stores Data in local storage as you input it
 const storedInputs = document.querySelectorAll('input')
 
-storedInputs.forEach(input => Inputs.addEventListener('input', () => {
+storedInputs.forEach(input => Inputs.addEventListener('input',  => {
   storeFormData();
 }));
 
